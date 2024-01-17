@@ -1,3 +1,3 @@
 # MyGov
 
-Autonomous decentralized governance token contract called MyGov. Governance token allows crowds to collectively manage a decentralized autonomous organization (DAO).
+Autonomous decentralized governance token contract called MyGov and web based user interface for MyGov.
