@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyGov DAO Interface</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <span id="Error"></span>
+        <button id="connectButton">Connect</button>
+        <button id="approveContractB">Approve</button>
+        <button id="faucetButton">Faucet</button>
+      </p>
+      <p>
+        <input id="approveUSDAmount" placeholder="Amount" />
+        <button id="approveContractUSDT">Approve USD</button>
+      </p>
+      <p>
+        <input id="donateUSDAmount" placeholder="Amount" />
+        <button id="donateUSDButton">Donate USD</button>
+      </p>
+      <p>
+        <input id="donateGovAmount" placeholder="Amount" />
+        <button id="donateMyGovTokenButton">Donate MyGov</button>
+      </p>
+      <p>
+        <input id="ipfsHash" placeholder="ipfsHash" />
+        <input id="surveyDeadline" placeholder="Deadline" />
+        <input id="numChoices" placeholder="Number of Choices" />
+        <input id="atMostChoice" placeholder="at Most Choice" />
+        <button id="submitSurveyButton">Submit Survey</button>
+      </p>
+      <p>
+        <input id="takeSurveyId" placeholder="Survey Id" />
+        <input id="choices" placeholder="Choices" />
+        <button id="takeSurveyButton">Take Survey</button>
+      </p>
+      <p>
+        <input id="resultSurveyId" placeholder="Survey Id" />
+        <button id="getSurveyResultsButton">Survey Results</button>
+        <span id="surveyResult"></span>
+      </p>
+      <p>
+        <input id="ownerSurveyId" placeholder="Survey Id" />
+        <button id="getSurveyOwnerButton">Survey Owner</button>
+        <span id="surveyOwner"></span>
+      </p>
+      <p>
+        <button id="getNoOfSurveysButton" onclick="getNoOfSurveys">
+          Number of Surveys
+        </button>
+        <span id="surveyCount"></span>
+        <button id="getNoOfFundedProjectsButton">
+          Number of Funded Projects
+        </button>
+        <span id="fundedProjectCount"></span>
+        <button id="getNoOfProjectProposalsButton">
+          Number of Project Proposals
+        </button>
+        <span id="numberOfProposals"></span>
+      </p>
+      <p>
+        <input id="ipfsHash2" placeholder="ipfsHash" />
+        <input id="voteDeadline" placeholder="Vote Deadline" />
+        <input id="paymentAmounts" placeholder="Payment Amounts" />
+        <input id="paySchedule" placeholder="Pay Schedule" />
+        <button id="submitProjectProposalButton">
+          Submit Project Proposal
+        </button>
+      </p>
+      <p>
+        <input id="fundedProjectId" placeholder="Project Id" />
+        <button id="getIsProjectFundedButton">Is Project Funded?</button>
+        <span id="isFunded"></span>
+      </p>
+      <p>
+        <input id="nextPaymentProjectId" placeholder="Project Id" />
+        <button id="getProjectNextPaymentButton">Project Next Payment</button>
+        <span id="nextPayment"></span>
+      </p>
+      <p>
+        <input id="projectIdInfo" placeholder="Project Id" />
+        <button id="getProjectInfoButton">Project Info</button>
+        <span id="projectInfo"></span>
+      </p>
+      <p>
+        <input id="voteProjectId" placeholder="Project Id" />
+        <input id="choiceVoteProject" placeholder="Choice" />
+        <button id="voteForProjectProposalButton">
+          Vote for Project Proposal
+        </button>
+      </p>
+      <p>
+        <input id="projectIdReceiveUSD" placeholder="Project Id" />
+        <button id="getUSDReceivedByProjectButton">
+          USD Received by Project
+        </button>
+        <span id="projectReceiveUSD"></span>
+      </p>
+      <p>
+        <input id="reserveProjectId" placeholder="Project Id" />
+        <button id="reserveProjectGrantButton">Reserve Project Grant</button>
+      </p>
+      <p>
+        <input id="withdrawProjectId" placeholder="Project Id" />
+        <button id="withdrawProjectPaymentButton">
+          Withdraw Project Payment
+        </button>
+      </p>
+      <p>
+        <input id="voteProjectPaymentId" placeholder="Project Id" />
+        <input id="choiceVoteProjectPayment" placeholder="Choice" />
+        <button id="voteForProjectPaymentButton">
+          Vote for Project Payment
+        </button>
+      </p>
+      <p>
+        <input id="memberAddress" placeholder="Address" />
+        <input id="delegateVoteProjectId" placeholder="Project Id" />
+        <button id="delegateVoteToButton">Delegate Vote</button>
+      </p>
+      <p>
+        <input id="surveyIdInfo" placeholder="Survey Id" />
+        <button id="getSurveyInfoButton">Survey Info</button>
+        <span id="surveyInfo"></span>
+      </p>
+      <p>
+        <input id="projectIdforOwner" placeholder="Project Id" />
+        <button id="getProjectOwnerButton">Project Owner</button>
+        <span id="projectOwner"></span>
+      </p>
+    </div>
+  </body>
+  <script src="./index.js" type="module"></script>
+</html>
